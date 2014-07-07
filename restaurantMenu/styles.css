@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: green;
+}
+
+.specialDishes {
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.specialDishes thead td {
+    color: red;
+    font-weight: normal;
+    width: 40px;
+    font-size: 10px;
+}
+
+.specialDishes thead td:nth-child(3)  {
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.specialDishes thead td {
+    color: red;
+}
+
+.columns {
+    width: 100%;
+}
+ .col {
+    float: left;
+    width: 45%;
+}
+ .col h1,
+ .col h2 {
+     text-align: center;
+     color: red;
+ }
+ .hours {
+     color: red;
+     font-size: 14px;
+     text-align: center;
+     margin-top: -1em;
+ }
+
+ .lunchSpecials {
+     border-bottom: 5px solid red;
+ }
+
+ .labels span {
+     float: right;
+     padding-right: 7px;
+ }
+ .labels span:first-child {
+     float: none;
+     padding-left: 10px;
+     padding-right: 0;
+ }
+.itemPrice {
+    float: right;
+}
+.spicy {
+    color: red;
+}
+.spicy span.itemNumber:first-child {
+    background-image: url('pepper.gif');
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: all 150ms;
+}
+.spicy>div:hover {
+    cursor: url(pepper.gif), auto;
+}
+.spicy>div:hover span.itemNumber:first-child {
+    background-position: 90% -2px;
+}
+.disclaimer .warning {
+    background: url('pepper.gif') no-repeat left;
+    padding-left: 20px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
